@@ -6,16 +6,19 @@
     <title>Black Goose Bistro | Pizza-on-Demand</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Michroma&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="nav-bar">
-            <a href="#">Main</a>
-            <a href="#">Make an Order</a>
+            <a href="#main-content">Main</a>
+            <a href="#make-an-order">Make an Order</a>
             <a href="#">Contact Us</a>
         </nav>
     </header>
-    <main class="container">
+    <main class="container" id="main-content">
         <h1>Black Goose Bistro | Pizza-on-Demand</h1>
         <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 
@@ -50,7 +53,7 @@
                 </table>
             </fieldset>
 
-            <h2>Design Your Dream Pizza:</h2>
+            <h2 id="make-an-order">Design Your Dream Pizza:</h2>
 
             <fieldset>
                 <legend>Pizza Specs</legend>
@@ -120,5 +123,14 @@
             </div>
         </form>
     </main>
+    <footer>
+      <p>Follow us on:
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      </p>
+      <p>Contact us at: <a href="./contact_us.html">Contact Us</a></p>
+      <p>&copy; 2025 Pizza Store. All rights reserved.</p>
+    </footer>
 </body>
 </html>

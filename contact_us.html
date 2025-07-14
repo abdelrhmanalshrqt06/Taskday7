@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A meta store for laptops is a centralized digital platform that aggregates product information, reviews, pricing, and availability from multiple retailers and brands. Instead of selling laptops directly, it acts as a comparison hub, helping users find the best deals, specifications, and user feedback across various e-commerce sites.">
+        <meta name="keywords" content="laptop, computer, harddrive, acsessories, electronics, meta store, online shopping, product comparison, reviews, pricing, availability">
+        <meta name="author" content="Meta Store Team">  
+        <meta http-equiv="Refresh" content="300">
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+        <title>Contact Us</title>
+
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Michroma&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <nav class="nav-bar">
+          <a href="./index.html">Main</a>
+          <a href="./index.html">Make an Order</a>
+          <a href="./contact_us.html">Contact Us</a>
+        </nav>
+      </header>
+
+      <main>
+        <h2 id="contact-h">Contact Us</h2>
+        <div class="contact-wrapper">
+          <form action="#" method="post">
+            <fieldset>
+              <legend>Your information</legend>
+              <div id="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" class="contact-input" required />
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" class="contact-input" required />
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" class="contact-input" />
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" class="contact-input" rows="6" cols="50" required></textarea>
+              </div>
+              <div id="additional-options">
+                <label for="subscribe">
+                  <input type="checkbox" id="subscribe" name="subscribe" />
+                  Subscribe to our news notifications
+                </label><br><br>
+                <label for="rate">Rate us 1 to 5</label><br>
+                <input type="range" id="rate" name="rate" min="1" max="5" value="1" required unchecked/>
+              </div>
+            </fieldset>
+            <button type="submit">Send Message</button>
+          </form>
+          <img src="./images/contact_us.jpg" alt="Contact Us" class="contact-image" />
+        </div>
+      </main>
+      <footer>
+        <p>Follow us on:
+          <a href="https://www.facebook.com" target="_blank">Facebook</a>
+          <a href="https://www.twitter.com" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </p>
+        <p>Contact us at: <a href="./contact_us.html">Contact Us</a></p>
+        <p>&copy; 2025 Pizza Store. All rights reserved.</p>
+      </footer>
+
+      <script src="./js/script.js"></script>
+    </body>
+  </html>
